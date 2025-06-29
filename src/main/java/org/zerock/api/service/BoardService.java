@@ -14,5 +14,5 @@ public List<BoardDTO> list() throws Exception;
 	
 	public int update(BoardDTO boardDTO) throws Exception;
 	
-	public int delete(String id);
+	public int delete(String id) throws Exception;
 }

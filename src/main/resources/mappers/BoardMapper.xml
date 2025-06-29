@@ -12,6 +12,7 @@
 			,created_at
 			,updated_at
 		FROM board
+		ORDER BY no DESC
 	</select>
 	
 	<select id="select">
